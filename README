@@ -1,0 +1,34 @@
+                             rlcompleter
+                             -----------
+
+                              release 2
+                (c) 2011 Reuben Thomas <rrt@sc3d.org>
+                         (c) 2004 Jay Carlson
+
+
+rlcompleter provides readline completion to the Lua interpreter. It is
+copyright Jay Carlson 2004 and copyright Reuben Thomas 2011, and is
+released under the MIT license, like Lua 5.1. There is no warranty.
+
+Please report bugs and make suggestions to the email address above.
+
+
+Installation
+------------
+
+    make
+
+You may well need to edit the Makefile, which has only been tested on
+Linux; patches to make it more general are welcome. Install
+rlcompleter.lua and rlcompleter_c.so (or equivalent) on LUA_PATH and
+LUA_CPATH respectively.
+
+
+Use
+---
+
+require "rlcompleter"
+
+You may want to put this in your LUA_INIT. Then in the interpreter
+(which must have been built with LUA_USE_READLINE) you can press Tab
+to complete the current identifier.
