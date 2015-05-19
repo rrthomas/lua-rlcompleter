@@ -1,7 +1,7 @@
                              rlcompleter
                              -----------
 
-                              release 2
+                              release 3
                 (c) 2011 Reuben Thomas <rrt@sc3d.org>
                         (c) 2007 Steve Donovan
                          (c) 2004 Jay Carlson
@@ -9,7 +9,7 @@
 
 rlcompleter provides readline completion to the Lua interpreter. It is
 copyright Jay Carlson 2004 and copyright Reuben Thomas 2011, and is
-released under the MIT license, like Lua 5.1. There is no warranty.
+released under the MIT license, like Lua. There is no warranty.
 
 Please report bugs and make suggestions to the email address above.
 
