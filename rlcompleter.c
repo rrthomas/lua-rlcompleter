@@ -127,6 +127,7 @@ int luaopen_rlcompleter_c (lua_State *L)
   luaL_openlib (L, LCOMPLETERLIBNAME, lib, 0);
   storedL = L;
   rl_basic_word_break_characters = " \t\n\"\\'><=;:+-*/%^~#{}()[].,";
+  rl_completer_quote_characters = "\"'";
   rl_attempted_completion_function = do_completion;
   return 1;
 }
