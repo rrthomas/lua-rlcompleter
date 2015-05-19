@@ -1,5 +1,5 @@
 package="rlcompleter"
-version="git-1"
+version="3-1"
 
 source = {
    url = "git://github.com/rrthomas/lua-rlcompleter"
